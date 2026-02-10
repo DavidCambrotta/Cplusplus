@@ -66,6 +66,6 @@ double e;
 int main() {
     printf("enter input:");
     scanf("%d %ld %c %f %lf", &a, &b, &c, &d, &e);
-    printf("%d\n%ld\n%c\n%f\n%lf\n", a, b, c, e, d);
+    printf("%d\n%ld\n%c\n%.3f\n%.9lf\n", a, b, c, d, e);
     return 0;
 }
